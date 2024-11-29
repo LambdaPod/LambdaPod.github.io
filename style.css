@@ -1,0 +1,165 @@
+@font-face {
+    font-family: 'BaiJamjuree';
+    src: url('assets/fonts/Bai_Jamjuree/BaiJamjuree-Regular.ttf');
+}
+@font-face {
+    font-family: 'BaiJamjureeBold';
+    src: url('assets/fonts/Bai_Jamjuree/BaiJamjuree-Bold.ttf');
+}
+
+body {
+    background-color: black;
+    background-image: url(assets/images/dotted-bg.png), linear-gradient(rgb(0, 0, 0), rgb(0, 22, 43));
+    background-size: 50px, auto;
+    margin: 0px;
+    padding: 0px;
+    color: white;
+}
+div.header {
+    position: sticky;
+    top: 0;
+    background: rgba(0, 0, 0, 0.5);
+    padding: 0px;
+    border-bottom-width: 2px;
+    border-bottom-style: solid;
+    border-bottom-color: rgba(196, 219, 225, 0.25);
+    color: white;
+    backdrop-filter: blur(3px);
+    display: flex;
+}
+img.header {
+    height: 25px;
+    width: 25px;
+    margin: 5px;
+}
+ul.header {
+    display: flex;
+    flex-direction: row-reverse;
+    margin-left: auto;
+    margin-right: 0px;
+    margin-top: 9px;
+    margin-bottom: 0px;
+}
+ul.header-nav {
+    list-style-type: none;
+}
+li.header-nav {
+    display: inline-block;
+    font-family: 'BaiJamjuree', sans-serif;
+    margin: 0px 20px;
+}
+nav.header-nav {
+    display: flex;
+    flex-direction: row;
+}
+h1 {
+    margin: 0px;
+    padding: 10px;
+    font-family: 'BaiJamjureeBold', sans-serif;
+    line-height: 30px;
+    height: 31px;
+}
+p {
+    font-family: 'BaiJamjuree', sans-serif;
+}
+p.body-text {
+    text-align: center;
+    font-size: 25px;
+    margin: 0px 20%;
+}
+div.body-text {
+    justify-content: center;
+}
+section.body-text {
+    display: flex;
+    justify-content: center;
+}
+h1.big-title {
+    font-family: 'BaiJamjureeBold';
+    font-size: 100px;
+    margin: 100px 0px 0px 0px;
+    text-align: center;
+    text-shadow: rgb(158, 180, 184) 0px 0 100px;
+}
+h2.subtitle {
+    font-family: 'BaiJamjureeBold';
+    font-size: 50px;
+    margin: 100px 0px 0px 0px;
+    text-align: center;
+    text-shadow: rgb(196, 219, 225) 0px 0 100px;
+}
+a {
+    color: white;
+}
+img.game-icons {
+    border-radius: 20px;
+    display: inline-block;
+    width: 15%;
+    margin: 50px 1.5%;
+    border-style: solid;
+    border-color: rgba(196, 219, 225, 0.15);
+    border-width: 5px;
+}
+section.game-icons {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+img.music-icons {
+    border-radius: 15%;
+    display: inline-block;
+    width: 15%;
+    margin: 50px 1.5%;
+    border-style: solid;
+    border-color: rgba(196, 219, 225, 0.15);
+    border-width: 5px;
+}
+section.music-icons {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+#godot-logo {
+    width: 15%;
+    margin: 20px 42.5%;
+}
+section.project-showcase {
+    background-color: rgba(0, 0, 0, 0.3);
+    border-radius: 50px;
+    border-style: solid;
+    border-color: rgba(196, 219, 225, 0.05);
+    margin: 20px 200px 50px 200px;
+    padding: 0px;
+    
+}
+h1.project-showcase {
+    font-size: 30px;
+    font-family: 'BaiJamjureeBold';
+    text-align: center;
+    text-shadow: rgb(147, 165, 169) 0px 0 60px;
+    margin: 0px 0px 20px 0px;
+}
+img.project-showcase {
+    border-radius: 30px;
+    border-color: rgba(196, 219, 225, 0.05);;
+    border-width: 2px;
+    border-style: solid;
+    margin: 0px;
+}
+p.project-showcase {
+    font-size: 17px;
+    margin: 0px;
+}
+a.project-showcase {
+    margin: 30px 0px;
+    background-color: #1a9fff;
+    border-style: solid;
+    border-radius: 10px;
+    border-color: rgba(196, 219, 225, 0.329);
+    border-width: 2px;
+    font-family: 'BaiJamjureeBold', sans-serif;
+    font-size: 24px;
+    color: white;
+    text-align: center;
+    text-decoration: none;
+}
